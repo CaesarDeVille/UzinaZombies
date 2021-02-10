@@ -11,7 +11,7 @@ int main() {
 
 	p1.setNom("Jean");
 	p1.setAttack(50);
-	p1.setDefense(20);
+	p1.setArmure(20);
 	p1.showInfos();
 	cout << endl;
 
@@ -43,7 +43,7 @@ int main() {
 	cout << "Attack de p4 = "<<z4.getAttack()<<endl;
 	cout << "PV de P3 = "<<z3.getPv()<<endl;
 
-	cout << "heal de p2 = "<<z2.getHeal()<<endl;
+	cout << "heal de p2 = "<<z2.getLeech()<<endl;
 	cout << "PV de P3 = "<<z3.getPv()<<endl;
 
     cout <<"HEAL"<<endl;
