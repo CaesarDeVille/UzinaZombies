@@ -34,8 +34,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Bomber.h" />
+		<Unit filename="include/Rapace.h" />
 		<Unit filename="include/Zombie.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Bomber.cpp" />
+		<Unit filename="src/Rapace.cpp" />
 		<Unit filename="src/Zombie.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

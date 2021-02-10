@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1612800253 source:c:\users\render\desktop\test\uzinazombies\src\zombie.cpp
+	"Zombie.h"
+
+1612801742 c:\users\render\desktop\test\uzinazombies\include\zombie.h
+	<string>
+	<iostream>
+	<random>
+	<ctime>
+	<stdlib.h>
+	"Arme.h"
+

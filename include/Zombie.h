@@ -6,7 +6,6 @@
 #include <random>
 #include <ctime>
 #include <stdlib.h>
-#include "Arme.h"
 
 using namespace std;
 
@@ -16,17 +15,17 @@ private:
 	int pv = 100;
 	string nom = "Bob";
 	int attack = 10;
-	int armure = 10;
+	int armure = 0;
 
 public:
     //CONSTRUCTEURS
-    Personnage();
-    Personnage(int p, int a, float pc);
-    Personnage(string n);
+    Zombie();
+    Zombie(int z, int a, float pc);
+    Zombie(string n);
 
 
     //DESTRUCTEUR
-    ~Personnage();
+    ~Zombie();
 
     //GETTER/SETTER PV
 	int getPv() const;
@@ -48,14 +47,14 @@ public:
     //AFFICHE LES INFOS DU PERSO
 	void showInfos() const;
 
-    void attackPlayer(Personnage* cible);
+    void attackPlayer(Zombie* cible);
 
-    bool operator==(Personnage & p);
+    bool operator==(Zombie & z);
 
-    Personnage operator+(Personnage const & p);
-    void operator+=(Personnage const & p);
+    Zombie operator+(Zombie const & z);
+    void operator+=(Zombie const & z);
 
-    bool operator!=(Personnage & p);
+    bool operator!=(Zombie & z);
 };
 
-#endif // PERSONNAGE_H
+#endif // ZOMBIE_H
